@@ -52,7 +52,7 @@ const IconInput = ({
         {...delegated}
         style={{
           '--width': width + 'px',
-          '--height': styles.height + 'px',
+          '--height': styles.height / 16 + 'rem',
           '--border-thikness': styles.borderThikness + 'px',
           '--font-size': styles.fontSize / 16 + 'rem',
         }}
