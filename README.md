@@ -40,13 +40,6 @@ Once running, you can visit storybook at http://localhost:6006.
 
 The figma document mentions that this component should be "accessible". You can learn how to build a semantically-valid, accessible progress-bar component by reading this doc: https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_progressbar_role
 
-This component uses a **box shadow**. We haven't seen this property yet! For now, you can achieve this effect by copying the following CSS declaration into your component:
-
-```css
-box-shadow: inset 0px 2px 4px ${COLORS.transparentGray35};
-```
-
-We'll learn much more about the `box-shadow` property in future modules =)
 
 ### Select
 
